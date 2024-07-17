@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    /* background-color: #333; */
+}
+
+header {
+    border: solid 5px red;
+    padding: 1em;
+    display: flex;
+}
+
+.logo {
+    border: solid 5px rgb(81, 244, 190);
+    width: 200px;
+}
+
+.categories {
+    border: solid 5px rgb(225, 81, 244);
+    flex: 1;
+    display: flex;
+    justify-content: center;
+
+}
+
+.client {
+    border: solid 5px rgb(234, 110, 143);
+    display: flex;
+    justify-content: end;
+}
+
+main {
+    border: solid 5px blue;
+    padding: 1em;
+}
+
+img {
+    border: solid 5px greenyellow;
+    max-width: 100%;
+}
+
+#showcase {
+    border: solid 5px purple;
+}
+
+#crush {
+    border: solid 5px rgb(254, 123, 35);
+}
+
+footer {
+    border: solid 5px rgb(80, 169, 198);
+}
